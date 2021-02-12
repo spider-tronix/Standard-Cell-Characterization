@@ -1,0 +1,200 @@
+1. Input Node : A Input Slew : 0.06n Output Capacitance : 0.025p
+['cell_rise_time (ns)', 'cell_fall_time (ns)', 'output_rise_time (ns)', 'output_fall_time (ns)']
+[0.08850000000000109, 0.0757400000000001, 0.09249999999999983, 0.060740000000000904]
+
+2. Input Node : A Input Slew : 0.06n Output Capacitance : 0.05p
+['cell_rise_time (ns)', 'cell_fall_time (ns)', 'output_rise_time (ns)', 'output_fall_time (ns)']
+[0.13950000000000018, 0.11173999999999974, 0.1749999999999999, 0.10700000000000148]
+
+3. Input Node : A Input Slew : 0.06n Output Capacitance : 0.1p
+['cell_rise_time (ns)', 'cell_fall_time (ns)', 'output_rise_time (ns)', 'output_fall_time (ns)']
+[0.24199999999999813, 0.1830733333333342, 0.3329999999999996, 0.19966666666666566]
+
+4. Input Node : A Input Slew : 0.06n Output Capacitance : 0.3p
+['cell_rise_time (ns)', 'cell_fall_time (ns)', 'output_rise_time (ns)', 'output_fall_time (ns)']
+[0.6475000000000005, 0.46973999999999977, 0.954500000000002, 0.5736666666666653]
+
+5. Input Node : A Input Slew : 0.06n Output Capacitance : 0.6p
+['cell_rise_time (ns)', 'cell_fall_time (ns)', 'output_rise_time (ns)', 'output_fall_time (ns)']
+[1.256499999999998, 0.9017399999999999, 1.8854999999999997, 1.1390000000000011]
+
+6. Input Node : A Input Slew : 0.18n Output Capacitance : 0.025p
+['cell_rise_time (ns)', 'cell_fall_time (ns)', 'output_rise_time (ns)', 'output_fall_time (ns)']
+[0.11850000000000119, 0.11566666666666613, 0.10149999999999847, 0.08333333333333212]
+
+7. Input Node : A Input Slew : 0.18n Output Capacitance : 0.05p
+['cell_rise_time (ns)', 'cell_fall_time (ns)', 'output_rise_time (ns)', 'output_fall_time (ns)']
+[0.17150000000000173, 0.15866666666666776, 0.1799999999999998, 0.11907333333333175]
+
+8. Input Node : A Input Slew : 0.18n Output Capacitance : 0.1p
+['cell_rise_time (ns)', 'cell_fall_time (ns)', 'output_rise_time (ns)', 'output_fall_time (ns)']
+[0.27400000000000296, 0.2297400000000007, 0.3340000000000007, 0.20140666666666676]
+
+9. Input Node : A Input Slew : 0.18n Output Capacitance : 0.3p
+['cell_rise_time (ns)', 'cell_fall_time (ns)', 'output_rise_time (ns)', 'output_fall_time (ns)']
+[0.681000000000002, 0.5154066666666656, 0.9549999999999993, 0.5726666666666679]
+
+10. Input Node : A Input Slew : 0.18n Output Capacitance : 0.6p
+['cell_rise_time (ns)', 'cell_fall_time (ns)', 'output_rise_time (ns)', 'output_fall_time (ns)']
+[1.2895000000000005, 0.9467399999999998, 1.885999999999997, 1.1373333333333346]
+
+11. Input Node : A Input Slew : 0.42n Output Capacitance : 0.025p
+['cell_rise_time (ns)', 'cell_fall_time (ns)', 'output_rise_time (ns)', 'output_fall_time (ns)']
+[0.15850000000000106, 0.16000000000000072, 0.1415000000000008, 0.12699999999999895]
+
+12. Input Node : A Input Slew : 0.42n Output Capacitance : 0.05p
+['cell_rise_time (ns)', 'cell_fall_time (ns)', 'output_rise_time (ns)', 'output_fall_time (ns)']
+[0.2274999999999999, 0.22433333333333394, 0.21499999999999977, 0.17166666666666763]
+
+13. Input Node : A Input Slew : 0.42n Output Capacitance : 0.1p
+['cell_rise_time (ns)', 'cell_fall_time (ns)', 'output_rise_time (ns)', 'output_fall_time (ns)']
+[0.33899999999999975, 0.3200000000000015, 0.35600000000000004, 0.24240666666666583]
+
+14. Input Node : A Input Slew : 0.42n Output Capacitance : 0.3p
+['cell_rise_time (ns)', 'cell_fall_time (ns)', 'output_rise_time (ns)', 'output_fall_time (ns)']
+[0.7464999999999994, 0.6087400000000008, 0.9550000000000017, 0.5724066666666675]
+
+15. Input Node : A Input Slew : 0.42n Output Capacitance : 0.6p
+['cell_rise_time (ns)', 'cell_fall_time (ns)', 'output_rise_time (ns)', 'output_fall_time (ns)']
+[1.356499999999998, 1.0390733333333353, 1.8854999999999997, 1.1353333333333324]
+
+16. Input Node : A Input Slew : 0.6n Output Capacitance : 0.025p
+['cell_rise_time (ns)', 'cell_fall_time (ns)', 'output_rise_time (ns)', 'output_fall_time (ns)']
+[0.1799999999999998, 0.1810000000000001, 0.16750000000000217, 0.15366666666666617]
+
+17. Input Node : A Input Slew : 0.6n Output Capacitance : 0.05p
+['cell_rise_time (ns)', 'cell_fall_time (ns)', 'output_rise_time (ns)', 'output_fall_time (ns)']
+[0.2599999999999987, 0.25699999999999906, 0.24700000000000133, 0.20500000000000057]
+
+18. Input Node : A Input Slew : 0.6n Output Capacitance : 0.1p
+['cell_rise_time (ns)', 'cell_fall_time (ns)', 'output_rise_time (ns)', 'output_fall_time (ns)']
+[0.38450000000000006, 0.37133333333333185, 0.3830000000000017, 0.28399999999999853]
+
+19. Input Node : A Input Slew : 0.6n Output Capacitance : 0.3p
+['cell_rise_time (ns)', 'cell_fall_time (ns)', 'output_rise_time (ns)', 'output_fall_time (ns)']
+[0.7954999999999979, 0.6797399999999995, 0.9594999999999978, 0.5857400000000006]
+
+20. Input Node : A Input Slew : 0.6n Output Capacitance : 0.6p
+['cell_rise_time (ns)', 'cell_fall_time (ns)', 'output_rise_time (ns)', 'output_fall_time (ns)']
+[1.4054999999999997, 1.108406666666665, 1.8860000000000012, 1.133999999999999]
+
+21. Input Node : A Input Slew : 1.2n Output Capacitance : 0.025p
+['cell_rise_time (ns)', 'cell_fall_time (ns)', 'output_rise_time (ns)', 'output_fall_time (ns)']
+[0.23300000000000035, 0.22566666666666846, 0.24299999999999927, 0.2256666666666666]
+
+22. Input Node : A Input Slew : 1.2n Output Capacitance : 0.05p
+['cell_rise_time (ns)', 'cell_fall_time (ns)', 'output_rise_time (ns)', 'output_fall_time (ns)']
+[0.341000000000002, 0.3283333333333342, 0.33899999999999975, 0.2956666666666654]
+
+23. Input Node : A Input Slew : 1.2n Output Capacitance : 0.1p
+['cell_rise_time (ns)', 'cell_fall_time (ns)', 'output_rise_time (ns)', 'output_fall_time (ns)']
+[0.5030000000000012, 0.4863333333333335, 0.4915000000000006, 0.4013333333333321]
+
+24. Input Node : A Input Slew : 1.2n Output Capacitance : 0.3p
+['cell_rise_time (ns)', 'cell_fall_time (ns)', 'output_rise_time (ns)', 'output_fall_time (ns)']
+[0.961000000000002, 0.9030000000000025, 1.0150000000000003, 0.6970733333333344]
+
+25. Input Node : A Input Slew : 1.2n Output Capacitance : 0.6p
+['cell_rise_time (ns)', 'cell_fall_time (ns)', 'output_rise_time (ns)', 'output_fall_time (ns)']
+[1.571500000000001, 1.3424066666666674, 1.8959999999999984, 1.1620733333333313]
+
+26. Input Node : B Input Slew : 0.06n Output Capacitance : 0.025p
+['cell_rise_time (ns)', 'cell_fall_time (ns)', 'output_rise_time (ns)', 'output_fall_time (ns)']
+[0.11940666666666694, 0.11399999999999857, 0.09466666666666679, 0.06549999999999982]
+
+27. Input Node : B Input Slew : 0.06n Output Capacitance : 0.05p
+['cell_rise_time (ns)', 'cell_fall_time (ns)', 'output_rise_time (ns)', 'output_fall_time (ns)']
+[0.167073333333332, 0.14999999999999886, 0.16766666666666794, 0.11250000000000018]
+
+28. Input Node : B Input Slew : 0.06n Output Capacitance : 0.1p
+['cell_rise_time (ns)', 'cell_fall_time (ns)', 'output_rise_time (ns)', 'output_fall_time (ns)']
+[0.2617399999999999, 0.22200000000000028, 0.3140000000000006, 0.20650000000000088]
+
+29. Input Node : B Input Slew : 0.06n Output Capacitance : 0.3p
+['cell_rise_time (ns)', 'cell_fall_time (ns)', 'output_rise_time (ns)', 'output_fall_time (ns)']
+[0.6440733333333334, 0.5114999999999993, 0.905, 0.5860000000000011]
+
+30. Input Node : B Input Slew : 0.06n Output Capacitance : 0.6p
+['cell_rise_time (ns)', 'cell_fall_time (ns)', 'output_rise_time (ns)', 'output_fall_time (ns)']
+[1.223406666666666, 0.9469999999999985, 1.7990000000000002, 1.1555]
+
+31. Input Node : B Input Slew : 0.18n Output Capacitance : 0.025p
+['cell_rise_time (ns)', 'cell_fall_time (ns)', 'output_rise_time (ns)', 'output_fall_time (ns)']
+[0.15066666666666612, 0.14900000000000185, 0.09474000000000012, 0.06500000000000009]
+
+32. Input Node : B Input Slew : 0.18n Output Capacitance : 0.05p
+['cell_rise_time (ns)', 'cell_fall_time (ns)', 'output_rise_time (ns)', 'output_fall_time (ns)']
+[0.1984066666666671, 0.18550000000000272, 0.16773999999999906, 0.11200000000000045]
+
+33. Input Node : B Input Slew : 0.18n Output Capacitance : 0.1p
+['cell_rise_time (ns)', 'cell_fall_time (ns)', 'output_rise_time (ns)', 'output_fall_time (ns)']
+[0.2937399999999987, 0.25750000000000084, 0.314073333333334, 0.2064999999999984]
+
+34. Input Node : B Input Slew : 0.18n Output Capacitance : 0.3p
+['cell_rise_time (ns)', 'cell_fall_time (ns)', 'output_rise_time (ns)', 'output_fall_time (ns)']
+[0.6760733333333323, 0.5470000000000024, 0.9053333333333325, 0.585499999999998]
+
+35. Input Node : B Input Slew : 0.18n Output Capacitance : 0.6p
+['cell_rise_time (ns)', 'cell_fall_time (ns)', 'output_rise_time (ns)', 'output_fall_time (ns)']
+[1.2550733333333322, 0.9825000000000015, 1.799, 1.1550000000000002]
+
+36. Input Node : B Input Slew : 0.42n Output Capacitance : 0.025p
+['cell_rise_time (ns)', 'cell_fall_time (ns)', 'output_rise_time (ns)', 'output_fall_time (ns)']
+[0.18800000000000092, 0.18800000000000058, 0.09766666666666647, 0.06399999999999978]
+
+37. Input Node : B Input Slew : 0.42n Output Capacitance : 0.05p
+['cell_rise_time (ns)', 'cell_fall_time (ns)', 'output_rise_time (ns)', 'output_fall_time (ns)']
+[0.2353333333333349, 0.2249999999999987, 0.16833333333333278, 0.10999999999999982]
+
+38. Input Node : B Input Slew : 0.42n Output Capacitance : 0.1p
+['cell_rise_time (ns)', 'cell_fall_time (ns)', 'output_rise_time (ns)', 'output_fall_time (ns)']
+[0.3300000000000017, 0.29699999999999926, 0.3140733333333328, 0.20500000000000002]
+
+39. Input Node : B Input Slew : 0.42n Output Capacitance : 0.3p
+['cell_rise_time (ns)', 'cell_fall_time (ns)', 'output_rise_time (ns)', 'output_fall_time (ns)']
+[0.7127400000000024, 0.5864999999999984, 0.9044066666666664, 0.5860000000000019]
+
+40. Input Node : B Input Slew : 0.42n Output Capacitance : 0.6p
+['cell_rise_time (ns)', 'cell_fall_time (ns)', 'output_rise_time (ns)', 'output_fall_time (ns)']
+[1.2920733333333358, 1.0215000000000003, 1.7990000000000002, 1.1544999999999996]
+
+41. Input Node : B Input Slew : 0.6n Output Capacitance : 0.025p
+['cell_rise_time (ns)', 'cell_fall_time (ns)', 'output_rise_time (ns)', 'output_fall_time (ns)']
+[0.2083333333333325, 0.20699999999999816, 0.10033333333333429, 0.0649999999999976]
+
+42. Input Node : B Input Slew : 0.6n Output Capacitance : 0.05p
+['cell_rise_time (ns)', 'cell_fall_time (ns)', 'output_rise_time (ns)', 'output_fall_time (ns)']
+[0.2559999999999998, 0.24399999999999875, 0.16966666666666722, 0.10999999999999982]
+
+43. Input Node : B Input Slew : 0.6n Output Capacitance : 0.1p
+['cell_rise_time (ns)', 'cell_fall_time (ns)', 'output_rise_time (ns)', 'output_fall_time (ns)']
+[0.35066666666666435, 0.31700000000000045, 0.31433333333333213, 0.2039999999999997]
+
+44. Input Node : B Input Slew : 0.6n Output Capacitance : 0.3p
+['cell_rise_time (ns)', 'cell_fall_time (ns)', 'output_rise_time (ns)', 'output_fall_time (ns)']
+[0.7327399999999981, 0.6049999999999986, 0.90474, 0.5839999999999996]
+
+45. Input Node : B Input Slew : 0.6n Output Capacitance : 0.6p
+['cell_rise_time (ns)', 'cell_fall_time (ns)', 'output_rise_time (ns)', 'output_fall_time (ns)']
+[1.3120733333333312, 1.0404999999999978, 1.7990733333333333, 1.1550000000000002]
+
+46. Input Node : B Input Slew : 1.2n Output Capacitance : 0.025p
+['cell_rise_time (ns)', 'cell_fall_time (ns)', 'output_rise_time (ns)', 'output_fall_time (ns)']
+[0.2603333333333351, 0.24900000000000194, 0.11233333333333415, 0.07099999999999697]
+
+47. Input Node : B Input Slew : 1.2n Output Capacitance : 0.05p
+['cell_rise_time (ns)', 'cell_fall_time (ns)', 'output_rise_time (ns)', 'output_fall_time (ns)']
+[0.30800000000000155, 0.2875000000000001, 0.17699999999999813, 0.11199999999999713]
+
+48. Input Node : B Input Slew : 1.2n Output Capacitance : 0.1p
+['cell_rise_time (ns)', 'cell_fall_time (ns)', 'output_rise_time (ns)', 'output_fall_time (ns)']
+[0.40266666666666734, 0.3610000000000024, 0.31799999999999917, 0.20349999999999996]
+
+49. Input Node : B Input Slew : 1.2n Output Capacitance : 0.3p
+['cell_rise_time (ns)', 'cell_fall_time (ns)', 'output_rise_time (ns)', 'output_fall_time (ns)']
+[0.7843333333333338, 0.6500000000000009, 0.9054066666666669, 0.5819999999999991]
+
+50. Input Node : B Input Slew : 1.2n Output Capacitance : 0.6p
+['cell_rise_time (ns)', 'cell_fall_time (ns)', 'output_rise_time (ns)', 'output_fall_time (ns)']
+[1.363406666666667, 1.0840000000000025, 1.798740000000001, 1.152499999999999]
+
