@@ -75,8 +75,21 @@ output_capacitance = [y1,y2,y3,y4,y5]
 5. openpyxl_.py : Reads the input values for standard cell characterization. Also used for formatting and writing the output into excel file.
 6. DeleteFiles_.py : Deletes the temporary netlists and data files created during characterization and frees up the memory.
 
+# Steps to run
+1. Clone the Repository <br/>
+    ``` git clone ```
+2. Place the netlist and the .xlsx file with all the input paramters inside the ```Standard-Cell-Characterization/Characterization/Netlists``` Folder. [Sample Formats]() are given in this repository.
+3. Run the charaterization.py script from the terminal or using Python idle. <br/>
+``` ~/Standard-Cell-Library-skywater-130/Work$ python3 Characterization.py```
+4. The script will list all the netlists given inside the directory, enter the index number of the standard cell to be characterised .
+<insert image>
+5. Outputs would be generated and saved in the Characterization folder.
+
+
+
 # Work-Left
 - Power Characterization
 - Liberty Files (.lib) Format Generation
 - Optimize to reduce Run-Time
 # Acknowledgements
+- Kunal Ghosh, Co-founder (VSD Corp. Pvt. Ltd)
