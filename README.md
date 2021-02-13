@@ -42,47 +42,47 @@ alt="Analyze Logic Function" width = 554‬ height = 324 >
     
 
 2. **Build Netlists**:
-    The underlying methodology here is that the standard cells must be simulated for all the possible combinations of input slew and output capacitance. The netlist of the standard cell is taken as a base and different netlists are built based on the different combinations of input slew and output capacitance. For our examples, size(input_slew) = 5 and size(output_capacitance) = 5 --> a total of 5x5 = 25 netlists would be built and saved temporarily .<br/>
+    The underlying methodology here is that the standard cells must be simulated for all the possible combinations of input slew and output capacitance. The netlist of the standard cell is taken as a base and different netlists are built based on the different combinations of input slew and output capacitance. For our examples, size(input_slew) = 5 and size(output_capacitance) = 5 --> a total of 5x5 = 25 netlists would be built and saved temporarily .<br/><br/>
     <img src="https://github.com/akilm/Standard-Cell-Characterization/blob/main/Image%20Files/temporary_netlists_whole.PNG" 
-alt="Netlists Whole" width = 1,219 height = 166 >
+alt="Netlists Whole"  ><br/><br/>
     <img src="https://github.com/akilm/Standard-Cell-Characterization/blob/main/Image%20Files/temporary_netlists_compare.PNG" 
-alt="Netlists Compare" width = 1,071 height = 508 >
+alt="Netlists Compare"  >
 <br/>
     
 
 3. **Run Simulations**:
-    The netlists which are created in the previous step are run one after the other. The Netlists whicha built in the previos stage include an ngspice command to save the input,output voltage and the time vectors in a **.data file**. All the possible combinations are executed and the data files are stored temporarily in a folder.
+    The netlists which are created in the previous step are run one after the other. The Netlists whicha built in the previos stage include an ngspice command to save the input,output voltage and the time vectors in a **.data file**. All the possible combinations are executed and the data files are stored temporarily in a folder.<br/><br/>
     <img src="https://github.com/akilm/Standard-Cell-Characterization/blob/main/Image%20Files/spice%20file%20execution.PNG" 
-alt="Data Files Different Combinations" >
+alt="Data Files Different Combinations" ><br/><br/>
     <img src="https://github.com/akilm/Standard-Cell-Characterization/blob/main/Image%20Files/spice%20file%20execution_1.PNG" 
-alt="Data Files Different Combinations" >
+alt="Data Files Different Combinations" ><br/><br/>
     <img src="https://github.com/akilm/Standard-Cell-Characterization/blob/main/Image%20Files/datafiles%20all%20combination.PNG" 
-alt="Data Files Different Combinations" >
+alt="Data Files Different Combinations" ><br/><br/>
     <img src="https://github.com/akilm/Standard-Cell-Characterization/blob/main/Image%20Files/data%20file%20generation.PNG" 
-alt="Data Files" >
+alt="Data Files" ><br/>
 
 4. **Characterization**:
     Each of these .data files is read and the vectors are analyzed to find the **tripping points** (points where the input and output voltages cross the upper threshold (0.8* Vdd), lower threshold (0.2* Vdd) and mid threshold (0.5* Vdd). The slopes (rising or falling) at these points are also determined. Based on the above obtained data, the values of rise transition, fall transition, cell rise and cell fall times are determined. These values are found for multiple rising and falling edges and averaged to reduce errors.
     
 5. **Format Output Data**
-    The output is currently formatted in two different forms -a text file and an excel file. The excel file stores the different tables under each pin for different parameters as given below. `Work under Progress: Format the data in Liberty file format (.lib)`
+    The output is currently formatted in two different forms -a text file and an excel file. The excel file stores the different tables under each pin for different parameters as given below. `Work under Progress: Format the data in Liberty file format (.lib)`<br/>
     <img src="https://github.com/akilm/Standard-Cell-Characterization/blob/main/Image%20Files/Characterization%20Results_1.PNG" 
-alt= "Characterization Files" >
+alt= "Characterization Files" ><br/><br/>
 
 <img src="https://github.com/akilm/Standard-Cell-Characterization/blob/main/Image%20Files/Characterization%20Results_2.PNG" 
- alt= "Characterization Files 2 " >
+ alt= "Characterization Files 2 " ><br/><br/>
 
 <img src="https://github.com/akilm/Standard-Cell-Characterization/blob/main/Image%20Files/Characterization%20Results%20Text%20Files.PNG" 
- alt= "Characterization Files 3 ">
+ alt= "Characterization Files 3 "><br/><br/>
 
 6. **Delete Temporary Files**
     The temporary netlists created and .data files are deleted . Hence, the working directory is cleaned and all the temporary data is removed.
 
 # Input Files and Directory Structure
 1. Netlist : The netlist is expected to be present inside the Characterization/Netlist folder . All the .cir files present in this directory will be automatically listed during the tool run and the user has to enter the index number corresponding to the particular netlist.
-2. Input Data : The tool expects a .xlsx file with the same name as the Netlist which contains the following details : Logic Function, input nodes , output node, Vdd, T (Time period), input_slew, output_capacitance, slew_lower_threshold, slew_upper_threshold values.
+2. Input Data : The tool expects a .xlsx file with the same name as the Netlist which contains the following details : Logic Function, input nodes , output node, Vdd, T (Time period), input_slew, output_capacitance, slew_lower_threshold, slew_upper_threshold values.<br/>
 <img src="https://github.com/akilm/Standard-Cell-Characterization/blob/main/Image%20Files/Input%20File.PNG" 
- alt= "Input Files ">
+ alt= "Input Files "><br/>
 
 # Output Files :
 1. Tabular Data : An excel file is created with multiple sheets with each sheet corresponding to a particular input nodes' timing parameter table [rise transition, fall transition, cell rise, cell fall]
@@ -106,9 +106,9 @@ alt= "Characterization Files" >
 ``` ~/Standard-Cell-Library-skywater-130/Work$ python3 Characterization.py```
 4. The script will list all the netlists given inside the directory, enter the index number of the standard cell to be characterised .
 5. Outputs would be generated and saved in the Characterization folder.
-
+<br/>
 <img src="https://github.com/akilm/Standard-Cell-Characterization/blob/main/Image%20Files/Steps%20to%20run.PNG" 
- alt= "Steps to run ">
+ alt= "Steps to run "><br/>
 
 # Work-Left
 - Power Characterization
