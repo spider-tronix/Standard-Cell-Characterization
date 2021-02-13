@@ -5,7 +5,7 @@ These Timing and Power Parameters change with respect to two important parameter
 
 ## Timing Characterization : 
 <img src="https://github.com/akilm/Standard-Cell-Characterization/blob/main/Image%20Files/Timing%20Waveforms.png" 
-alt="Timing Waveforms" >
+alt="Timing Waveforms" > <br/>
 **rise transition, fall transition, cell rise, cell fall** are the different parameters which form the timing characteristics of a standard cell. Certain constants are required as input before determining these Timing Characteristics. These Values are different for each input pin.
 
 ```
