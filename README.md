@@ -51,7 +51,7 @@ alt="Netlists Compare"  >
     
 
 3. **Run Simulations**:
-    The netlists which are created in the previous step are run one after the other. The Netlists whicha built in the previos stage include an ngspice command to save the input,output voltage and the time vectors in a **.data file**. All the possible combinations are executed and the data files are stored temporarily in a folder.<br/><br/>
+    The netlists which are created in the previous step are run one after the other. The Netlists whicha built in the previous stage include an ngspice command to save the input,output voltage and the time vectors in a **.data file**. All the possible combinations are executed and the data files are stored temporarily in a folder.<br/><br/>
     <img src="https://github.com/akilm/Standard-Cell-Characterization/blob/main/Image%20Files/spice%20file%20execution.PNG" 
 alt="Data Files Different Combinations" ><br/><br/>
     <img src="https://github.com/akilm/Standard-Cell-Characterization/blob/main/Image%20Files/spice%20file%20execution_1.PNG" 
