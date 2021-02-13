@@ -36,9 +36,9 @@ output_capacitance = [y1,y2,y3,y4,y5]
     ```
     Ex: Logic Function of a 2 input NAND Gate : !( A & B )
     ```
-    The algorithm analyzes the logic function and assigns PULSE waveform for the input pin under characterization and determines the voltage of the other input node based on the logic function. In this case B cannot be set to low voltage - in which case the output would remain at 1 at all times.
+    The algorithm analyzes the logic function and assigns PULSE waveform for the input pin under characterization and determines the voltage of the other input node based on the logic function. In this case B cannot be set to low voltage - in which case the output would remain at 1 at all times. <br/>
     <img src="https://github.com/akilm/Standard-Cell-Characterization/blob/main/Image%20Files/Analyze%20Logic%20Function.PNG" 
-alt="Analyze Logic Function" >
+alt="Analyze Logic Function" width = 554‬ height = 324 >
     
 
 2. **Build Netlists**:
