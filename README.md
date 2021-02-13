@@ -100,8 +100,8 @@ alt= "Characterization Files" ><br/><br/>
 
 # Steps to run
 1. Clone the Repository <br/>
-    ``` git clone ```
-2. Place the netlist and the .xlsx file with all the input paramters inside the ```Standard-Cell-Characterization/Characterization/Netlists``` Folder. [Sample Formats]() are given in this repository.
+    ``` git clone https://github.com/akilm/Standard-Cell-Characterization.git```
+2. Place the netlist and the .xlsx file with all the input paramters inside the ```Standard-Cell-Characterization/Characterization/Netlists``` Folder. [Sample Formats](https://github.com/akilm/Standard-Cell-Characterization/blob/main/Image%20Files/Input%20File.PNG) are given in this repository.
 3. Run the charaterization.py script from the terminal or using Python idle. <br/>
 ``` ~/Standard-Cell-Library-skywater-130/Work$ python3 Characterization.py```
 4. The script will list all the netlists given inside the directory, enter the index number of the standard cell to be characterised .
