@@ -42,12 +42,11 @@ alt="Analyze Logic Function" width = 554‬ height = 324 >
     
 
 2. **Build Netlists**:
-    The underlying methodology here is that the standard cells must be simulated for all the possible combinations of input slew and output capacitance. The netlist of the standard cell is taken as a base and different netlists are built based on the different combinations of input slew and output capacitance. For our examples, size(input_slew) = 5 and size(output_capacitance) = 5 --> a total of 5x5 = 25 netlists would be built and saved temporarily .
-
-<img src="https://github.com/akilm/Standard-Cell-Characterization/blob/main/Image%20Files/temporary_netlists_whole.PNG" 
-alt="Netlists Whole" >
-<img src="https://github.com/akilm/Standard-Cell-Characterization/blob/main/Image%20Files/temporary_netlists_compare.PNG" 
-alt="Netlists Compare" >
+    The underlying methodology here is that the standard cells must be simulated for all the possible combinations of input slew and output capacitance. The netlist of the standard cell is taken as a base and different netlists are built based on the different combinations of input slew and output capacitance. For our examples, size(input_slew) = 5 and size(output_capacitance) = 5 --> a total of 5x5 = 25 netlists would be built and saved temporarily .<br/>
+    <img src="https://github.com/akilm/Standard-Cell-Characterization/blob/main/Image%20Files/temporary_netlists_whole.PNG" 
+alt="Netlists Whole" width = 1,219 height = 166 >
+    <img src="https://github.com/akilm/Standard-Cell-Characterization/blob/main/Image%20Files/temporary_netlists_compare.PNG" 
+alt="Netlists Compare" width = 1,071 height = 508 >
 <br/>
     
 
