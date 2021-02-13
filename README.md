@@ -91,6 +91,7 @@ alt= "Characterization Files" ><br/><br/>
 
 
 # Code Structure
+All the scripts can be found under the work folder of this repository.
 1. [Characterization.py](https://github.com/akilm/Standard-Cell-Characterization/blob/main/Work/Characterization.py) : Main Script which utilises other scripts to generate the necessary output files. Also contains the function for running ngspice simulation using subprocess library.
 2. [NodeVoltages_.py](https://github.com/akilm/Standard-Cell-Characterization/blob/main/Work/NodeVoltages_.py) : Analyses the logic function of the standard cell and determines the node voltages (both constant and pulse waveforms) for each netlist.
 3. [NetlistBuilder_.py](https://github.com/akilm/Standard-Cell-Characterization/blob/main/Work/NetlistBuilder_.py) : For Building the Netlists for different combinations and saving them in the characterization folder.
