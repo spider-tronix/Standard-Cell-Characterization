@@ -42,14 +42,14 @@ alt="Analyze Logic Function" >
     
 
 2. **Build Netlists**:
-    The underlying methodology here is that the standard cells must be simulated for all the possible combinations of input slew and output capacitance. The netlist of the standard cell is taken as a base and different netlists are built based on the different combinations of input slew and output capacitance
+    The underlying methodology here is that the standard cells must be simulated for all the possible combinations of input slew and output capacitance. The netlist of the standard cell is taken as a base and different netlists are built based on the different combinations of input slew and output capacitance. For our examples, size(input_slew) = 5 and size(output_capacitance) = 5 --> a total of 5x5 = 25 netlists would be built and saved temporarily .
 
 <img src="https://github.com/akilm/Standard-Cell-Characterization/blob/main/Image%20Files/temporary_netlists_whole.PNG" 
 alt="Netlists Whole" >
 <img src="https://github.com/akilm/Standard-Cell-Characterization/blob/main/Image%20Files/temporary_netlists_compare.PNG" 
 alt="Netlists Compare" >
-
-    For our examples, size(input_slew) = 5 and size(output_capacitance) = 5 --> a total of 5x5 = 25 netlists would be built and saved temporarily .
+<br/>
+    
 
 3. **Run Simulations**:
     The netlists which are created in the previous step are run one after the other. The Netlists whicha built in the previos stage include an ngspice command to save the input,output voltage and the time vectors in a **.data file**. All the possible combinations are executed and the data files are stored temporarily in a folder.
