@@ -65,7 +65,7 @@ alt="Data Files" ><br/>
     Each of these .data files is read and the vectors are analyzed to find the **tripping points** (points where the input and output voltages cross the upper threshold (0.8* Vdd), lower threshold (0.2* Vdd) and mid threshold (0.5* Vdd). The slopes (rising or falling) at these points are also determined. Based on the above obtained data, the values of rise transition, fall transition, cell rise and cell fall times are determined. These values are found for multiple rising and falling edges and averaged to reduce errors.
     
 5. **Format Output Data**
-    The output is currently formatted in two different forms -a text file and an excel file. The excel file stores the different tables under each pin for different parameters as given below. `Work under Progress: Format the data in Liberty file format (.lib)`<br/>
+    The output is currently formatted in two different forms -a text file and an excel file. The excel file stores the different tables under each pin for different parameters as given below. `Work under Progress: Format the data in Liberty file format (.lib)`<br/><br/>
     <img src="https://github.com/akilm/Standard-Cell-Characterization/blob/main/Image%20Files/Characterization%20Results_1.PNG" 
 alt= "Characterization Files" ><br/><br/>
 
