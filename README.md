@@ -115,5 +115,4 @@ All the scripts can be found under the work folder of this repository.
 - Power Characterization
 - Liberty Files (.lib) Format Generation
 - Optimize to reduce Run-Time
-# Acknowledgements
-- Kunal Ghosh, Co-founder (VSD Corp. Pvt. Ltd)
+
